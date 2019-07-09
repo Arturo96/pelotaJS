@@ -1,0 +1,27 @@
+html {
+  --pelota-size: 50px;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.pelota {
+  margin: auto;
+  width: var(--pelota-size);
+  height: var(--pelota-size);
+  background: green;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
